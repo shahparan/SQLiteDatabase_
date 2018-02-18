@@ -112,5 +112,8 @@ public class MainActivity extends AppCompatActivity {
         return  flag;
     }
 
-
+    private Boolean checfffk(){
+        //rn
+        return true;
+    }
 }
