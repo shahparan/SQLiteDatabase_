@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E8F0EF"
+    android:layout_marginTop="7dp"
+    tools:context="com.example.shahparan.designpart.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:hint="Show text"
+        android:id="@+id/showName"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:hint="Show text"
+        android:id="@+id/showEmail"
+        android:textSize="21sp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/showName"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:hint="Show text"
+        android:id="@+id/showPhone"
+        android:textSize="21sp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/showEmail"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="31dp"
+        android:src="@drawable/call"
+        android:id="@+id/call"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4sp"
+        android:layout_marginEnd="4dp"
+        android:layout_alignBottom="@id/showPhone"
+        android:layout_height="31dp" />
+
+</RelativeLayout>
+
