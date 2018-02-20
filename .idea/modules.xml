@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CustomListView.iml" filepath="$PROJECT_DIR$/CustomListView.iml" />
+      <module fileurl="file://D:\1 Classes Android\Test\TestGit\CustomListView2002\CustomListView.iml" filepath="D:\1 Classes Android\Test\TestGit\CustomListView2002\CustomListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQLiteDatabase.iml" filepath="$PROJECT_DIR$/SQLiteDatabase.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
